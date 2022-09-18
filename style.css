@@ -4,43 +4,33 @@
 body {
     margin: 0;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-
 }
 
 .nav {
     font-family: 'Comic Neue', cursive;
     font-weight: 700;
-    color: white;
     font-family: 'Combo', cursive;
     margin-right: 100px;
     font-size: 1.7rem;
+   
 }
 
-.navBar {
-    margin: auto;
+
+.item {
+    font-size: large;
+    text-decoration: none;
+    padding: 10px 20px;
 }
 
-.buttons {
-    margin-left: 390px;
-    margin-top: 10px;
-    color:rgb(0, 136, 255);
-    background-color: transparent;
-    font-family: 'Gentium Book Plus', serif;
-    border: none;
-    font-size: small;
-    width: 210px;
-    text-align: center;
-
-}
-
-.buttons:hover {
-
-    background-color:lightblue;
-    color: #212529;
+.item:hover {
+    background-color: white;
+    color: black;
     border-radius: 50px;
-    width: 240px;
+    padding: 10px 20px;
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
@@ -48,123 +38,102 @@ body {
     transition: all 500ms ease;
 }
 
-.item {
-
+.containerA{
     color: white;
-    text-decoration: none;
-    padding: 5px 10px;
+
+    width: 70%;
+    height: 420px;
+    margin-top: 10px;
+    margin-left: 16%; 
 }
+.containerD{
+    position: absolute;
+    color: white;
 
-.item:hover {
-    color: #212529;
-    background-color: #ffffff;
-    border-radius: 50px;
-    -webkit-transition: all 800ms ease;
-    -moz-transition: all 800ms ease;
-    -ms-transition: all 800ms ease;
-    -o-transition: all 800ms ease;
-    transition: all 800ms ease;
+    width: 70%;
+    height: 420px;
+    margin-top:-420px;
+    margin-left: 16%; 
 }
-
-.image1 {
-    margin-left: 700px;
-    margin-top: 20px;
-    height: 350px;
-    width: 250px;
-    z-index: 9;
-}
-
-.image2 {
-    margin-top: -480px;
-    margin-left: 330px;
-    width: 350px;
-    height: 250px;
-}
-
-.image3 {
-    margin-top: -445px;
-    margin-left: 60px;
-    height: 350px;
-    width: 250px;
-    z-index: 9;
-}
-
-.image1f {
-    margin-left: 700px;
-    margin-top: 20px;
-    height: 350px;
-    width: 250px;
-    z-index: 9;
-}
-
-.image2f {
-    margin-top: -480px;
-    margin-left: 330px;
-    width: 350px;
-    height: 250px;
-}
-
-.image3f {
-    margin-top: -445px;
-    margin-left: 60px;
-    height: 350px;
-    width: 250px;
-    z-index: 9;
-}
-
-.float-parent-elementf {
-    margin-top: -900px;
-    width: 100%;
-}
-
-.float-parent-elementf {
-    margin-top: -430px;
-    width: 100%;
-}
-
-.float-child-element {
-    width: 50%;
-}
-
-.btn-pos1 {
-    background-color: white;
-    border-radius: 50px;
-    margin-left: 35.5rem;
-
-}
-
-.btn-pos2 {
-    background-color: white;
-    border-radius: 50px;
-    margin-left: -510px;
-
-
-}
-
-.parent {
-    border: 1px solid black;
-    margin: 1rem;
-    padding: 2rem 2rem;
+.image1{
+    float: left;
+    margin: 5px;
+  
+    width: 32%;
+    height: 400px;
     text-align: center;
-}
-
-.child {
-    display: inline-block;
     
-    padding: 1rem 1rem;
-    vertical-align: middle;
 }
-
-.heading {
-    font-family: 'Gentium Book Plus', serif;
-    color:purple;
-    margin: -130px 0 0 390px;
+.image2{
+    margin: 5px;
+    float: left;
+  
+    width: 32%;
+    height: 400px;
     text-align: center;
-    width: fit-content;
-    border: rgb(102, 0, 255) ridge 5px;
-    font-size: large;
-    font-weight: bold;
-    padding: 5px 10px;
-    border-radius: 10px;
-
 }
+.image3{
+    float: left;
+    margin: 5px;
+   
+    width: 32%;
+    height: 400px;
+    text-align: center;
+    
+}
+.img1 {
+    height: 100%;
+    width: 300px;
+    
+    
+}
+.img2 {
+    height: 100%;
+    width: 300px;
+    
+   
+}
+.img3 {
+    height: 100%;
+    width: 300px;
+    
+}
+.img1d {
+    height: 100%;
+    width: 300px;;
+    object-fit: cover;
+    
+}
+.img2d {
+    height: 100%;
+    width: 300px;
+    object-fit: cover;
+   
+}
+.img3d {
+    height: 100%;
+    width: 300px;
+    object-fit: cover;
+}
+
+.containerB{
+   
+    position: absolute;
+    margin-left:42% ;
+    width: max-content;
+}
+
+p{
+    color: rgb(0, 0, 0);
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+    font-size: large;
+    background-color: gold;
+    text-align: center;
+    padding: 5px 10px;
+    border: rgb(129, 111, 6) ridge 5px ;
+   border-radius: 3px;
+}
+
+
+
