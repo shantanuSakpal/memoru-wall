@@ -1,6 +1,6 @@
 
 function next() {
-    fetch('http://shibe.online/api/shibes?count=50')
+    fetch('https://shibe.online/api/shibes?count=50')
         .then((res) => {
             return res.json();
         })
@@ -15,7 +15,10 @@ function next() {
             data3 = `<img class="img3d" src="${imgArr[2]}" alt="img3">`
             document.getElementById("image3").innerHTML = data3;
 
-        })
+        }).catch(err)
+        {
+            console.log(err);
+        }
 
 }
 
