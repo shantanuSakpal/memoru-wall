@@ -1,160 +1,518 @@
 @import url('https://fonts.googleapis.com/css2?family=Combo&family=Gentium+Book+Plus&display=swap');
 
+@media (min-device-width:1200px) and (max-device-width: 1600px) {
+    body {
+        margin: 0;
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
 
-body {
-    margin: 0;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
+    .nav {
+        font-family: 'Comic Neue', cursive;
+        font-weight: 700;
+        font-family: 'Combo', cursive;
+        margin-right: 100px;
+        font-size: 1.7rem;
 
-.nav {
-    font-family: 'Comic Neue', cursive;
-    font-weight: 700;
-    font-family: 'Combo', cursive;
-    margin-right: 100px;
-    font-size: 1.7rem;
-   
-}
-
-
-.item {
-    font-size: large;
-    text-decoration: none;
-    padding: 10px 20px;
-}
-
-.item:hover {
-    background-color: white;
-    color: black;
-    border-radius: 50px;
-    padding: 10px 20px;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-}
-.button {
-    background-color: transparent;
-    color: white;
-    font-size: large;
-    text-decoration: none;
-    padding: 7px 20px;
-    border:none;
-    margin-right: 15px;
-}
-
-.button:hover {
-    background-color: white;
-    color: black;
-    border-radius: 50px;
-    padding: 7px 20px;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
-}
-
-.containerA{
-    color: white;
-
-    width: 70%;
-    height: 420px;
-    margin-top: 10px;
-    margin-left: 16%; 
-}
-.containerD{
-    position: absolute;
-    color: white;
-
-    width: 70%;
-    height: 420px;
-    margin-top:-420px;
-    margin-left: 16%; 
-}
-.image1{
-    float: left;
-    margin: 5px;
-  
-    width: 32%;
-    height: 400px;
-    text-align: center;
-    
-}
-.image2{
-    margin: 5px;
-    float: left;
-  
-    width: 32%;
-    height: 400px;
-    text-align: center;
-}
-.image3{
-    float: left;
-    margin: 5px;
-   
-    width: 32%;
-    height: 400px;
-    text-align: center;
-    
-}
-.img1 {
-    height: 100%;
-    width: 300px;
-    
-    
-}
-.img2 {
-    height: 100%;
-    width: 300px;
-    
-   
-}
-.img3 {
-    height: 100%;
-    width: 300px;
-    
-}
-.img1d {
-    height: 100%;
-    width: 300px;;
-    object-fit: cover;
-    
-}
-.img2d {
-    height: 100%;
-    width: 300px;
-    object-fit: cover;
-   
-}
-.img3d {
-    height: 100%;
-    width: 300px;
-    object-fit: cover;
-}
-
-.containerB{
-   
-    position: absolute;
-    margin-left:42% ;
-    width: max-content;
-}
-
-p{
-    color: rgb(0, 0, 0);
-    font-family: 'Comic Neue', cursive;
-    font-weight: bold;
-    font-size: large;
-    background-color: gold;
-    text-align: center;
-    padding: 5px 10px;
-    border: rgb(129, 111, 6) ridge 5px ;
-   border-radius: 3px;
-}
+    }
 
 
+    .item {
+        font-size: large;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
 
+    .item:hover {
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        padding: 10px 20px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .button {
+        background-color: transparent;
+        color: white;
+        font-size: large;
+        text-decoration: none;
+        padding: 7px 20px;
+        border: none;
+        margin-right: 15px;
+    }
+
+    .button:hover {
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        padding: 7px 20px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .containerA {
+        color: white;
+
+        width: 70%;
+        height: 420px;
+        margin-top: 10px;
+        margin-left: 16%;
+    }
+
+    .containerD {
+        position: absolute;
+        color: white;
+
+        width: 70%;
+        height: 420px;
+        margin-top: -420px;
+        margin-left: 16%;
+    }
+
+    .image1 {
+        float: left;
+        margin: 5px;
+
+        width: 32%;
+        height: 400px;
+        text-align: center;
+
+    }
+
+    .image2 {
+        margin: 5px;
+        float: left;
+
+        width: 32%;
+        height: 400px;
+        text-align: center;
+    }
+
+    .image3 {
+        float: left;
+        margin: 5px;
+
+        width: 32%;
+        height: 400px;
+        text-align: center;
+
+    }
+
+    .img1 {
+        height: 100%;
+        width: 300px;
+
+
+    }
+
+    .img2 {
+        height: 100%;
+        width: 300px;
+
+
+    }
+
+    .img3 {
+        height: 100%;
+        width: 300px;
+
+    }
+
+    .img1d {
+        height: 100%;
+        width: 300px;
+        ;
+        object-fit: cover;
+
+    }
+
+    .img2d {
+        height: 100%;
+        width: 300px;
+        object-fit: cover;
+
+    }
+
+    .img3d {
+        height: 100%;
+        width: 300px;
+        object-fit: cover;
+    }
+
+    .containerB {
+
+        position: absolute;
+        margin-left: 42%;
+        width: max-content;
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: 'Comic Neue', cursive;
+        font-weight: bold;
+        font-size: large;
+        background-color: gold;
+        text-align: center;
+        padding: 5px 10px;
+        border: rgb(129, 111, 6) ridge 5px;
+        border-radius: 3px;
+    }
+}
+
+@media (max-width: 600px) and (orientation:portrait) {
+    body {
+        margin: 0;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .nav {
+        font-family: 'Comic Neue', cursive;
+        font-weight: 700;
+        font-family: 'Combo', cursive;
+        /* margin-right: 100px; */
+        font-size: 1rem;
+        
+
+    }
+    .logo{
+        width: 10px;
+        height: 10px;
+    }
+
+
+    .item {
+        font-size: small;
+        text-decoration: none;
+        /* padding: 10px 20px; */
+    }
+
+    .item:hover {
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        /* padding: 10px 20px; */
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .button {
+        background-color: transparent;
+        color: white;
+        font-size: small;
+        text-decoration: none;
+        padding: 7px 20px;
+        border: none;
+        margin-right: 15px;
+    }
+
+    .button:hover {
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        padding: 7px 20px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .containerA {
+        color: white;
+
+        width: 70%;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 16%;
+    }
+
+    .containerD {
+        position: absolute;
+        color: white;
+        width: 70%;
+        height: 420px;
+        margin-top: -420px;
+        margin-left: 16%;
+       border: wheat solid 2px;
+    }
+
+    .image1 {
+        float: left;
+        margin: 5px;
+
+        width: 150px;
+        height: 250px;
+        text-align: center;
+        border: red solid 2px;
+
+    }
+
+    .image2 {
+        margin: 10px;
+        float: left;
+        width: 150px;
+        height: 250px;
+        text-align: center;
+        border: red solid 2px;
+    }
+
+    .image3 {
+        float: left;
+        margin: 5px;
+        width: 32%;
+        height: 400px;
+        text-align: center;
+        display: none;
+
+    }
+
+    .img1 {
+        height: 100%;
+        width: 300px;
+
+
+    }
+
+    .img2 {
+        height: 100%;
+        width: 300px;
+
+
+    }
+
+    .img3 {
+        height: 100%;
+        width: 300px;
+
+    }
+
+    .img1d {
+        height: 100%;
+        width: 300px;
+        ;
+        object-fit: cover;
+
+    }
+
+    .img2d {
+        height: 100%;
+        width: 300px;
+        object-fit: cover;
+
+    }
+
+    .img3d {
+        height: 100%;
+        width: 300px;
+        object-fit: cover;
+    }
+
+    .containerB {
+
+        position: absolute;
+        margin-left: 42%;
+        width: max-content;
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: 'Comic Neue', cursive;
+        font-weight: bold;
+        font-size: large;
+        background-color: gold;
+        text-align: center;
+        padding: 5px 10px;
+        border: rgb(129, 111, 6) ridge 5px;
+        border-radius: 3px;
+    }
+
+}
+
+/* @media (max-width: 500px) and (orientation:landscape){
+    body {
+        margin: 0;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+    }
+
+    .nav {
+        font-family: 'Comic Neue', cursive;
+        font-weight: 700;
+        font-family: 'Combo', cursive;
+        margin-right: 100px;
+        font-size: 1.7rem;
+
+    }
+
+
+    .item {
+        font-size: large;
+        text-decoration: none;
+        padding: 10px 20px;
+    }
+
+    .item:hover {
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        padding: 10px 20px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .button {
+        background-color: transparent;
+        color: white;
+        font-size: large;
+        text-decoration: none;
+        padding: 7px 20px;
+        border: none;
+        margin-right: 15px;
+    }
+
+    .button:hover {
+        background-color: white;
+        color: black;
+        border-radius: 50px;
+        padding: 7px 20px;
+        -webkit-transition: all 500ms ease;
+        -moz-transition: all 500ms ease;
+        -ms-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+    }
+
+    .containerA {
+        color: white;
+
+        width: 70%;
+        height: 420px;
+        margin-top: 10px;
+        margin-left: 16%;
+    }
+
+    .containerD {
+        position: absolute;
+        color: white;
+
+        width: 70%;
+        height: 420px;
+        margin-top: -420px;
+        margin-left: 16%;
+    }
+
+    .image1 {
+        float: left;
+        margin: 5px;
+        width: 32%;
+        height: 400px;
+        text-align: center;
+
+    }
+
+    .image2 {
+        margin: 5px;
+        float: left;
+        width: 32%;
+        height: 400px;
+        text-align: center;
+    }
+
+    .image3 {
+        float: left;
+        margin: 5px;
+        width: 32%;
+        height: 400px;
+        text-align: center;
+        display: none;
+
+    }
+
+    .img1 {
+        height: 100%;
+        width: 300px;
+
+
+    }
+
+    .img2 {
+        height: 100%;
+        width: 300px;
+
+
+    }
+
+    .img3 {
+        height: 100%;
+        width: 300px;
+        display: none;
+
+    }
+
+    .img1d {
+        height: 100%;
+        width: 300px;
+        ;
+        object-fit: cover;
+
+    }
+
+    .img2d {
+        height: 100%;
+        width: 300px;
+        object-fit: cover;
+
+    }
+
+    .img3d {
+        height: 100%;
+        width: 300px;
+        object-fit: cover;
+        display: none;
+    }
+
+    .containerB {
+
+        position: absolute;
+        margin-left: 42%;
+        width: max-content;
+    }
+
+    p {
+        color: rgb(0, 0, 0);
+        font-family: 'Comic Neue', cursive;
+        font-weight: bold;
+        font-size: large;
+        background-color: gold;
+        text-align: center;
+        padding: 5px 10px;
+        border: rgb(129, 111, 6) ridge 5px;
+        border-radius: 3px;
+    }
+
+} */
