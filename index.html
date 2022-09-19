@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
             <div id="title" class="nav">
-                <img  src="Wall-images/gallaryLogo.png" style="margin: 7px 10px 0 10px   ;" alt="Logo" width="40"
+                <img src="Wall-images/gallaryLogo.png" style="margin: 7px 10px 0 10px   ;" alt="Logo" width="40"
                     height="40">
                 Memory Wall
             </div>
@@ -24,7 +24,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a id="item1" class="dropdown-toggle item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a id="item1" class="dropdown-toggle item" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Theme
                         </a>
                         <ul class="dropdown-menu">
@@ -34,15 +35,28 @@
                     </li>
                 </ul>
             </div>
+            <div>
+
+                <button class="button" id="refresh" onclick="next()">See More Of <img src="Wall-images/dog-emoji-by-google.png" alt="dog-logo"
+                        width="30px" height="30px"></button>
+
+            </div>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a id="item2" class="dropdown-toggle item" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a id="item2" class="dropdown-toggle item" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
                             Change Frame
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" onclick="light()">Frame 1</a></li>
-                            <li><a class="dropdown-item" onclick="dark()">Frame 2</a></li>
+                            <li><a class="dropdown-item" onclick="f1()">Frame 1</a></li>
+                            <li><a class="dropdown-item" onclick="f2()">Frame 2</a></li>
+                            <li><a class="dropdown-item" onclick="f3()">Frame 3</a></li>
+                            <li><a class="dropdown-item" onclick="f4()">Frame 4</a></li>
+                            <li><a class="dropdown-item" onclick="f5()">Frame 5</a></li>
+                            <li><a class="dropdown-item" onclick="f6()">Frame 6</a></li>
+                            <li><a class="dropdown-item" onclick="f7()">Frame 7</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -50,8 +64,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a  id="item3" class="dropdown-toggle item" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                            style="text-align: right;">
+                        <a id="item3" class="dropdown-toggle item" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="text-align: right;">
                             Contact The Creator
                         </a>
                         <ul class="dropdown-menu">
@@ -74,16 +88,14 @@
         <div class="image3" id="image3"></div>
     </div>
 
-    <div class="containerD">
-        <div class="image1"><img class="img1" src="Wall-images/frame02.png" alt=""></div>
-        <div class="image2"><img class="img2" src="Wall-images/frame02.png" alt=""></div>
-        <div class="image3"><img class="img2" src="Wall-images/frame02.png" alt=""></div>
+    <div class="containerD" id="frameContainer">
+
     </div>
 
     <div class="containerB">
         <p>Man's Best Friend</p>
     </div>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

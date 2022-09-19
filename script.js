@@ -18,6 +18,57 @@ function next() {
         })
 
 }
+
+function f1(){
+    document.getElementById("frameContainer").innerHTML=`
+    <div class="image1" id="f1"><img class="img1" src="Wall-images/frame01.png" alt=""></div>
+    <div class="image2" id="f2"><img class="img2" src="Wall-images/frame01.png" alt=""></div>
+    <div class="image3" id="f3"><img class="img2" src="Wall-images/frame01.png" alt=""></div>
+    `
+}
+function f2(){
+    document.getElementById("frameContainer").innerHTML=`
+    <div class="image1" id="f1"><img class="img1" src="Wall-images/frame02.png" alt=""></div>
+    <div class="image2" id="f2"><img class="img2" src="Wall-images/frame02.png" alt=""></div>
+    <div class="image3" id="f3"><img class="img2" src="Wall-images/frame02.png" alt=""></div>
+    `
+}
+function f3(){
+    document.getElementById("frameContainer").innerHTML=`
+    <div class="image1" id="f1"><img class="img1" src="Wall-images/frame03.png" alt=""></div>
+    <div class="image2" id="f2"><img class="img2" src="Wall-images/frame03.png" alt=""></div>
+    <div class="image3" id="f3"><img class="img2" src="Wall-images/frame03.png" alt=""></div>
+    `
+}
+function f4(){
+    document.getElementById("frameContainer").innerHTML=`
+    <div class="image1" id="f1"><img class="img1" src="Wall-images/frame04.png" alt=""></div>
+    <div class="image2" id="f2"><img class="img2" src="Wall-images/frame04.png" alt=""></div>
+    <div class="image3" id="f3"><img class="img2" src="Wall-images/frame04.png" alt=""></div>
+    `
+}
+function f5(){
+    document.getElementById("frameContainer").innerHTML=`
+    <div class="image1" id="f1"><img class="img1" src="Wall-images/frame05.png" alt=""></div>
+    <div class="image2" id="f2"><img class="img2" src="Wall-images/frame05.png" alt=""></div>
+    <div class="image3" id="f3"><img class="img2" src="Wall-images/frame05.png" alt=""></div>
+    `
+}
+function f6(){
+    document.getElementById("frameContainer").innerHTML=`
+    <div class="image1" id="f1"><img class="img1" src="Wall-images/frame06.png" alt=""></div>
+    <div class="image2" id="f2"><img class="img2" src="Wall-images/frame06.png" alt=""></div>
+    <div class="image3" id="f3"><img class="img2" src="Wall-images/frame06.png" alt=""></div>
+    `
+}
+
+function f7(){
+    document.getElementById("frameContainer").innerHTML=`
+    <div class="image1" id="f1"><img class="img1" src="Wall-images/frame07.png" alt=""></div>
+    <div class="image2" id="f2"><img class="img2" src="Wall-images/frame07.png" alt=""></div>
+    <div class="image3" id="f3"><img class="img2" src="Wall-images/frame07.png" alt=""></div>
+    `
+}
 let x=1;
 function light() {
     document.body.style.backgroundImage = "url('Wall-images/light01.webp')";
@@ -65,4 +116,5 @@ item3.addEventListener('mouseout', function () {
 
 dark();
 next();
+f1();
 
