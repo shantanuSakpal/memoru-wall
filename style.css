@@ -257,7 +257,7 @@
         height: 420px;
         margin-top: -420px;
         margin-left: 16%;
-        border: wheat solid 2px;
+        
     }
 
     .image1 {
@@ -267,7 +267,7 @@
         width: 150px;
         height: 250px;
         text-align: center;
-        border: red solid 2px;
+    
 
     }
 
@@ -277,7 +277,7 @@
         width: 150px;
         height: 250px;
         text-align: center;
-        border: red solid 2px;
+        
     }
 
     .image3 {
@@ -337,6 +337,8 @@
         padding: 5px 10px;
         border: rgb(129, 111, 6) ridge 5px;
         border-radius: 3px;
+        display:none;
+
     }
 
 }
