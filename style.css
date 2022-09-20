@@ -6,7 +6,7 @@
         margin: 0;
         background-size: fill;
         width: 100%;
-        height: 100vh;
+        height: 80%vh;
         
         -webkit-background-size: fill;
         -moz-background-size: fill;
@@ -116,7 +116,7 @@
         margin-left: 20px;
         margin-bottom: 5px;
         float: left;
-        width: 40%;
+        width: 45%;
         height: 130px;
         text-align: center;
         
@@ -130,7 +130,7 @@
         margin-top: 5px;
         margin-left: 20px;
         float: left;
-        width: 40%;
+        width: 45%;
         height: 130px;
         text-align: center;
         
