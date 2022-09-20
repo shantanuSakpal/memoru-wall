@@ -277,6 +277,7 @@
         width: 150px;
         height: 250px;
         text-align: center;
+        display:non
         
     }
 
@@ -288,6 +289,8 @@
     .img1 {
         height: 100%;
         width: 300px;
+                display:none;
+
 
 
     }
@@ -295,6 +298,8 @@
     .img2 {
         height: 100%;
         width: 300px;
+                display:none;
+
 
 
     }
@@ -316,6 +321,8 @@
         height: 100%;
         width: 300px;
         object-fit: cover;
+                display:none;
+
 
     }
 
