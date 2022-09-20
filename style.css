@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Combo&family=Gentium+Book+Plus&display=swap');
 
-@media (min-device-width:1200px) and (max-device-width: 1600px) {
+@media (min-device-width:1200px) and (max-device-width: 2000px) {
     body {
         margin: 0;
         background-repeat: no-repeat;
