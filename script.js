@@ -117,7 +117,7 @@ item3.addEventListener('mouseout', function () {
     document.getElementById("item3").style.color = "white"
 })
 
-// f1();
 dark();
-// next();
+f1();
+next();
 
